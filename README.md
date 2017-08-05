@@ -1,4 +1,4 @@
-# Nombre del grupo:**Biblioteca**  
+# Nombre del grupo: **Biblioteca**  
 
 Integrantes:  
 * *Cardozo, Luis.* Legajo:
