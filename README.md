@@ -1,4 +1,6 @@
-# Nombre del grupo: **Biblioteca**  
+# Proyecto Biblioteca
+
+Nombre del grupo: **Biblioteca**
 
 Integrantes:  
 * *Cardozo, Luis.* Legajo:
