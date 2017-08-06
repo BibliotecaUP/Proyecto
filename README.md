@@ -1,7 +1,7 @@
 # Proyecto Biblioteca
-
+=====================
 Nombre del grupo: **Biblioteca**
-================================
+--------------------------------
 
 Integrantes:  
 
