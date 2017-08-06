@@ -1,5 +1,5 @@
 # Proyecto Biblioteca
-=====================
+
 
 Nombre del grupo: **Biblioteca**
 --------------------------------
