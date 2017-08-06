@@ -1,8 +1,6 @@
 # Proyecto Biblioteca
-=====================
 
 Nombre del grupo: **Biblioteca**
---------------------------------
 
 Integrantes:  
 * *Cardozo, Luis.* Legajo: 95033
