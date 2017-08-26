@@ -13,7 +13,7 @@ Descripción del Proyecto:
 -------------------------
 *El proyecto consiste en un ABM de Libros para una Biblioteca.*
 ---------------------------------------------------------------
-Books:
+**Books:**  
 * Create  
 * Read  
 * Update  
@@ -21,7 +21,7 @@ Books:
 * List  
 * Image  
 
-Endpoints:  
+**Endpoints:**  
 /books  
 /books/isbn  
 /books/isbn/image  
