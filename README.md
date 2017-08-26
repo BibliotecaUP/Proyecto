@@ -17,7 +17,6 @@ Descripción del Proyecto:
 * Create  
 * Read  
 * Update  
-* Delete  
 * List  
 * Image  
 
