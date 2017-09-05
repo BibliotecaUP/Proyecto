@@ -1,0 +1,29 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Carga y prestamo de libros. Integrantes: Cardozo Luis y Cesarini Martín",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BibliotecaUP/Proyecto_Biblioteca.git"
+  },
+  "keywords": [
+    "Biblioteca"
+  ],
+  "author": "Cardozo Luis y Cesarini Martín",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BibliotecaUP/Proyecto_Biblioteca/issues"
+  },
+  "homepage": "https://github.com/BibliotecaUP/Proyecto_Biblioteca#readme"
+}
