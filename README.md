@@ -32,6 +32,3 @@ GET /books/isbn
 GET /books/isbn/image  
 GET /books/isbn/Availability  
 
-POST /books/isbn/Availability/date
-
-PUT /books/isbn/Availability/date
