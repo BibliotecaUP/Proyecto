@@ -22,16 +22,20 @@ Descripción del Proyecto:
 
 **Endpoints:**  
 /books  
-/books/isbn  
-/books/isbn/image  
-/books/isbn/Availability  
-/books/isbn/Availability/date  
+/books/{isbn}  
+/books/image (ver)  
+/books/availability  
+/books/availability/reservation  
 
 GET /books  
-GET /books/isbn  
-GET /books/isbn/image  
-GET /books/isbn/Availability  
+GET /books/{isbn}  
+GET /books/image/{isbn}  
+GET /books/availability/{isbn}  
 
-POST /books/isbn/Availability/date
+POST /books/{isbn}
+POST /books/availability/reservation/{isbn}
 
-PUT /books/isbn/Availability/date
+PUT /books/{isbn}
+PUT /books/availability/reservation/{isbn}
+
+DELETE /books/{isbn}

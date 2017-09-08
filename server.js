@@ -22,9 +22,9 @@ SERVER.get('/books', function (req, res) {
     res.send(BOOKS);
 });
 
-SERVER.post('/', function (req, res) {
-    LIBROS.push(req.body);
-    res.send(req.body);
+SERVER.post('/books', function (req, res) {
+    BOOKS.push(req.body);
+    res.send(BOOKS);
 });
 
 SERVER.listen(3000, function () {
