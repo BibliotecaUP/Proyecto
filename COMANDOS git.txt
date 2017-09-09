@@ -1,0 +1,15 @@
+git status
+
+git add .
+
+git commit -m "mensaje"
+
+git checkout .
+
+git pull
+
+git push
+
+git mergetool
+
+git merge --abort
