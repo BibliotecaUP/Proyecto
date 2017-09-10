@@ -31,7 +31,7 @@ var books = {
 
 SERVER.get('/books', function (req, res) {
     if (!req.body) return res.sendStatus(400);
-    res.send(BOOKS);
+    res.send(books);
 });
 
 SERVER.get('/books:id', function (req, res) {
