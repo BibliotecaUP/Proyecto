@@ -6,6 +6,8 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.0",
     "nodemon": "^1.11.0"
   },
   "devDependencies": {},

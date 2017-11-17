@@ -1,0 +1,53 @@
+<!doctype html>
+<!--Inicio la aplicacion angular-->
+<html lang="en" ng-app="angularBooks">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Biblioteca UP</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+	<!--Llamo a la funcion mainController que tengo en el main.js-->
+<body ng-controller="mainController">
+	<div class="container"> 
+    <!--Cabecera-->
+    	<div class="jumbotron text-center">
+				<img src="logoUP.png" ></img>
+        	<h1>Biblioteca UP <span class="label label-info" style="background-color:#F08080">{{ "Stock: " + books.length }}</span></h1>
+        </div>
+        <!--Lista de libros-->
+        <div id="books-list" class="row">
+        	<div class="col-sm-4 col-sm-offset-4">
+						<!--Hago un bucle para recorrer la coleccion de libros-->
+            	<div class="checkbox" ng-repeat="book in books">
+                <label style="font-size:20px;">
+											<label><b>Libro: </b></label>
+													{{ book.nombre }} 
+											<label><b>ISBN: </b></label>
+													{{ book.isbn }} 
+									<!--Capturo el evento del botòn eliminaer y le aplico la logica de la funcion deleteBook-->
+											<button class="btn btn-primary btn-lg" ng-click="deleteBook(book.id)">Eliminar</button>
+                </label>
+              </div>
+             </div>
+         </div>
+         <!--Formulario para insertar nuevos libros--> 			
+			<div id="booksForm" class="row">
+        	<div class="col-sm-8 col-sm-offset-2 text-center">
+            	<form>
+                	<div class="form-group">
+                    	<input type="text" class="form-control input-lg text-center" placeholder="Inserta un id" ng-model="formData.id">
+                <input type="text" class="form-control input-lg text-center" placeholder="Inserta un nombre" ng-model="formData.nombre">
+                    <input type="text" class="form-control input-lg text-center" placeholder="Inserta un ISBN" ng-model="formData.isbn">
+                </div>
+								<!--Capturo el evento del botòn Añadir y le aplico la logica de la funcion createBook-->
+                    <button class="btn btn-primary btn-lg" ng-click="createBook()">Añadir</button>
+								<!--Capturo el evento del botòn Vaciar y le aplico la logica de la funcion deleteAllBooks-->
+                   <button class="btn btn-primary btn-lg" ng-click="deleteAllBooks()">Vaciar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script> <script src="main.js"></script>
+</body>
+</html>
